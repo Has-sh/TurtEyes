@@ -75,10 +75,6 @@ A utility class to configure SSL settings, providing an `SSLContext` that trusts
 - **MainActivity**: Swipe down to refresh the device list. Tap a device button to view its GPS location and sensor status.
 - **StatsActivity**: Displays the current GPS location and hatchling status. The data updates based on the provided ViewModel.
 
-## Contributing
-
-Contributions are welcome. Please submit issues and pull requests on the [GitHub repository](https://github.com/Has-sh/ToDoListApp).
-
 ## Acknowledgements
 
 - Firebase Realtime Database
