@@ -74,7 +74,7 @@ A utility class to configure SSL settings, providing an `SSLContext` that trusts
 ## Usage
 
 - **MainActivity**: Swipe down to refresh the device list. Tap a device button to view its GPS location and sensor status.
-- **StatsActivity**: Displays the current GPS location and hatchling status. The data updates based on the provided ViewModel.
+- **DisplayMapActivity**: Displays the current GPS location and hatchling status. The data updates based on the provided ViewModel.
 
 ## Acknowledgements
 
