@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#131313"
+    android:orientation="vertical"
+    tools:context=".statsActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="30sp"
+        android:gravity="left"
+        android:text="Device information"
+        android:textColor="#f0f0f0"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/gpsData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:paddingLeft="30sp"
+        android:text="Location: "
+        android:textColor="#f0f0f0"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/hatchlingData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:paddingLeft="30sp"
+        android:layout_marginTop="15dp"
+        android:text="Hatchling Status: "
+        android:textColor="#f0f0f0"
+        android:textSize="15sp" />
+
+</LinearLayout>
