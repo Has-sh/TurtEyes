@@ -44,8 +44,8 @@ A utility class to configure SSL settings, providing an `SSLContext` that trusts
 1. **Clone the Repository**
 
    ```sh
-   git clone https://github.com/Has-sh/ToDoListApp.git
-   cd ToDoListApp
+   git clone https://github.com/Has-sh/TurtEyes.git
+   cd TurtEyes
    ```
 
 2. **Open the Project**
