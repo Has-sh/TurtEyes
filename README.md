@@ -1,16 +1,17 @@
 # TurtEyes
 
 ## Overview
+The Sea Turtle Hatchling Protection System mobile application `TurtEyes` is designed to interface with the Automated Sea Turtle Hatchling Protection Project. This application supports in the automated detection and protection of Loggerhead (Caretta caretta) and Green (Chelonia mydas) turtle hatchlings on Akdeniz Beach, TRNC.
 
-This Android application fetches and displays GPS and sensor data from a server. It uses Firebase for real-time data synchronization and includes asynchronous tasks to fetch data from specified endpoints. The app displays the GPS location on Google Maps and shows sensor status updates. 
+## Purpose
+The application is designed to integrate with the hardware and software components of the sea turtle hatchling protection system. It helps monitor and protect turtle hatchlings by providing real-time notification based updates on their status and location, ensuring prompt action can be taken if needed.
 
 ## Features
-
-- Fetches GPS and sensor data from a server.
-- Displays GPS location using Google Maps.
-- Real-time updates of hatchling status.
-- Swipe-to-refresh to update device list from Firebase.
-- Customizable error handling and UI updates.
+- Device Management: The application connects to Firebase Realtime Database to dynamically list and manage devices involved in the hatchling protection system.
+- Real-Time Data Fetching: Utilizes asynchronous tasks to fetch and display sensor data and GPS location updates related to hatchling detection.
+- User Interface: Provides a user-friendly interface with dynamic button creation for device interaction and real-time status updates on hatchling protection.
+- Error Handling: Displays error messages if network issues are encountered or if the data cannot be retrieved.
+- Data Visualization: Shows GPS location and hatchling status, with live updates and links to Google Maps for location visualization.
 
 ## Components
 
